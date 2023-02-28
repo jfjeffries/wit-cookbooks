@@ -13,4 +13,7 @@ default_source :supermarket
 run_list 'wit-cookbook::default'
 
 # Specify a custom source for a single cookbook:
+cookbook 'opsworks_ruby', '1.4.0'
 cookbook 'wit-cookbook', path: '.'
+cookbook 'packages', '~> 1.0.0'
+cookbook 'mysql', github: 'opscode-cookbooks/mysql', branch: 'master'

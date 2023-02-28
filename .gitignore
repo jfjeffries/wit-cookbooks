@@ -22,4 +22,6 @@ Berksfile.lock
 Policyfile.lock.json
 
 .idea/
+.vscode
+.DS_Store
 

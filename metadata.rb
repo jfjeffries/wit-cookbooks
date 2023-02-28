@@ -1,6 +1,6 @@
 name 'wit-cookbook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Jon Jeffries'
+maintainer_email 'jon@jeffriestech.com'
 license 'All Rights Reserved'
 description 'Installs/Configures wit-cookbook'
 version '0.1.0'
@@ -17,3 +17,5 @@ chef_version '>= 16.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/wit-cookbook'
+depends 'opsworks_ruby', '1.19.0'
+depends 'packages', '~> 1.0.0'
